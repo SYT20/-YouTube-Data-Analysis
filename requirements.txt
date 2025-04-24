@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+seaborn
+isodate
+google-api-python-client
