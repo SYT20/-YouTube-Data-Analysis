@@ -31,11 +31,3 @@
    ```
 2. Open `notebook/model.ipynb` and run all cells.
 
-## Implementation Notes
-- **Safety fixes**: Avoid chained assignment, use `ast.literal_eval` to parse tags safely, robust `to_datetime(errors='coerce')`, and resilient ISO 8601 duration parsing.
-- **Seaborn deprecations**: Removed `palette` without `hue` to avoid warnings.
-
-## Next Steps
-- Add engagement-rate comparisons by country or channel.
-- Explore thumbnail/title CTR proxies where available.
-- Consider log-scaled plots for skewed distributions.
